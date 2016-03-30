@@ -1,0 +1,22 @@
+{
+    "name" : "BugzillaTool",
+    "description" : "BugzillaTool~~~by mengmo",
+    "version" : "1.2",
+
+    "manifest_version" : 2,
+
+    "browser_action" : {
+        "default_icon" : "icon-32.png",
+        "default_title" : "BugzillaTool 1.2",
+        "default_popup": "popup.html"
+    },
+    "background" : {
+        "scripts" : ["background.js"]
+
+    },
+    "permissions" : [
+        "tabs",
+        "<all_urls>"
+    ],
+    "icons" : {"128" : "icon-128.png"}
+}
