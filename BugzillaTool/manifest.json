@@ -1,18 +1,14 @@
 {
     "name" : "BugzillaTool",
     "description" : "BugzillaTool~~~by BlinkMo",
-    "version" : "1.2",
+    "version" : "1.3",
 
     "manifest_version" : 2,
 
     "browser_action" : {
         "default_icon" : "icon-32.png",
-        "default_title" : "BugzillaTool 1.2",
+        "default_title" : "BugzillaTool 1.3",
         "default_popup": "popup.html"
-    },
-    "background" : {
-        "scripts" : ["background.js"]
-
     },
     "permissions" : [
         "tabs",
